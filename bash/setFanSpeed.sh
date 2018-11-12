@@ -33,7 +33,7 @@ for i in {0..5}; do
 
 		echo "Setting fanspeed to $(( (100*fanSpeed)/255 ))%"
 		sudo echo "$fanSpeed" > pwm1
-		c=$((c+1))
+		c=$(( c+1 ))
 	fi
 done
 
