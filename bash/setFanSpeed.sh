@@ -2,7 +2,7 @@
 
 #################################################################################
 #																				#
-#	Set fan speed for all your attached graphics cards							#
+#	Set fan speed for all your attached (only AMD RX580 tested) graphics cards	#
 #																				#
 #	Usage:																		#
 #			sudo ./setFanSpeed.sh [int speed]									#
